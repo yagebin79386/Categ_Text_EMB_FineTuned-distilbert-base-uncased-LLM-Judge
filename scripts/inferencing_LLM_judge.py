@@ -1,6 +1,16 @@
 from google.colab import drive
 drive.mount('/content/drive')
 
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+# The model path
+model_path = "/content/drive/My Drive/Colab Notebooks/LLM_judge/TrainModels"
+
+# Load the model
+
+model = AutoModelForSequenceClassification.from_pretrained(model_path, ignore_mismatched_sizes=True)
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+
 # Input Text
 import csv
 import ast
