@@ -6,7 +6,7 @@ This repository contains my solution to the Kaggle competition **"Predicting Use
 
 ## Problem Description
 
-Large Language Models (LLMs) are increasingly shaping the way we interact with AI systems. However, user satisfaction is influenced by biases like position preference, verbosity, or self-promotion, making preference prediction a challenging task. This competition provides real-world data collected from Chatbot Arena to help bridge the gap between LLM capability and human preference. The task is to predict user preferences based on provided input prompts and chatbot responses.
+The task is to predict user preferences based on provided input prompts and chatbot responses.
 
 ## Solution Overview
 
