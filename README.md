@@ -44,7 +44,7 @@ I selected the pretrained **DistilBERT** model for the following reasons:
 
 ## Repository Structure
 ├── model/ # Directory containing the final trained model 
-├── checkpoints/ # Checkpoints for each epoch 
+├── Training_epoch_accuracy_log/ # Accuracy for each epoch 
 ├── scripts/ # Python scripts for data preprocessing, training, and inference 
 ├── README.md # Project documentation
 
@@ -65,7 +65,8 @@ I selected the pretrained **DistilBERT** model for the following reasons:
    pip install -r requirements.txt
 3. Train the model:
    python scripts/train.py
-4. Run inference:
+4. The trained model can be also directly downloaded from Huggingface: https://huggingface.co/yagebin/fine-tuned-distilbert-base-uncased-LLM-Judge
+5. Run inference:
    python scripts/inference.py --input test.csv
 
 Challenge This Solution
